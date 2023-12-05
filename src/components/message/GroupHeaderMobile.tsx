@@ -11,7 +11,7 @@ import {
 
 const GroupHeaderMobile = (props:any) => {
   return (
-    <div className="flex justify-around px-1 mt-2">
+    <div className="flex justify-around px-1 mt-2 sticky">
       <div className="flex items-center space-x-2">
         <Avatar size="sm" src="https://placehold.co/30" />
         <p>Group Name</p>
